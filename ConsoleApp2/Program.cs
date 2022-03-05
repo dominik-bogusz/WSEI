@@ -9,4 +9,11 @@ namespace ConsoleApp2
             Console.WriteLine("Hello World!");
         }
     }
+
+    class Ulamek
+    {
+        private int licznik;
+        private int mianownik;
+        
+    }
 }
