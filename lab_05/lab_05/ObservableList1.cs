@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_05
 {
-    class ObservableList1
+    class ObservableList1<T>
     {
         public double Length { get; set; }
 
@@ -27,6 +27,20 @@ namespace lab_05
         public void RemoveAt()
         {
 
+        }
+
+        private string[] strArr = new string[10];
+        public string this[int index]
+        {
+            get
+            {
+                return strArr[index];
+            }
+
+            set
+            {
+                
+            }
         }
     }
 }
